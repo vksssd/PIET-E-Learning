@@ -1,0 +1,23 @@
+
+[
+  {
+    "id": 1,
+    "header": "What is BookFlix?",
+    "body": "BookFlix is a e-reading service that offers a wide variety of award-winning Books, Magazines, documentaries and more – on thousands of internet-connected devices.\n\nYou can watch as much as you want, whenever you want, without a single advert – all for one low monthly price. There's always something new to discover, and new TV programmes and films are added every week!"
+  },
+  {
+    "id": 2,
+    "header": "How much does BookFlix cost?",
+    "body": "Read Bookflix on your smartphone, tablet, smart TV, laptop or streaming device, all for free.  No extra costs or contracts."
+  },
+  {
+    "id": 3,
+    "header": "Where can I read?",
+    "body": "Read anywhere, anytime, on an unlimited number of devices. Sign in with your Bookflix account to watch instantly on the web from your personal computer or on any internet-connected device that offers the BookFlix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.\n\nYou can also download your favourite programmes with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take BookFlix with you anywhere."
+  },
+  {
+    "id": 4,
+    "header": "What can I read on BookFlix?",
+    "body": "BookFlix has an extensive library of feature books, documentaries, award-winning BookFlix originals, and more. Watch as much as you want, any time you want."
+  }
+]

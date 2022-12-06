@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "title": "Enjoy on your BOOK.",
+      "subTitle": "Read on smart PCs, Laptops, Tab, TVs, Phone, and more.",
+      "image": "/images/misc/css.jpeg",
+      "alt": "CSS King on BookFlix",
+      "direction": "row"
+    },
+    {
+      "id": 2,
+      "title": "Download your Books to Read on the go.",
+      "subTitle": "Save your data and read all your favourites offline.",
+      "image": "/images/misc/programming.png",
+      "alt": "Read on mobile",
+      "direction": "row-reverse"
+    },
+    {
+      "id": 3,
+      "title": "Read everywhere.",
+      "subTitle": "Read unlimited books and Magzines  on your phone, tablet, laptop and TV without paying more.",
+      "image": "/images/misc/computerprogeamming.jpeg",
+      "alt": "DSA Heist on BookFlix",
+      "direction": "row"
+    }
+  ]
