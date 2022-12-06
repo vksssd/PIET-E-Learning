@@ -1,91 +1,80 @@
-[debug] [2022-12-06T17:12:37.207Z] ----------------------------------------------------------------------
-[debug] [2022-12-06T17:12:37.208Z] Command:       /usr/local/bin/node /usr/local/bin/firebase hosting:channel:deploy
-[debug] [2022-12-06T17:12:37.209Z] CLI Version:   11.16.1
-[debug] [2022-12-06T17:12:37.209Z] Platform:      darwin
-[debug] [2022-12-06T17:12:37.209Z] Node Version:  v16.13.2
-[debug] [2022-12-06T17:12:37.212Z] Time:          Tue Dec 06 2022 22:42:37 GMT+0530 (India Standard Time)
-[debug] [2022-12-06T17:12:37.212Z] ----------------------------------------------------------------------
+[debug] [2022-12-06T18:59:52.079Z] ----------------------------------------------------------------------
+[debug] [2022-12-06T18:59:52.080Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve --host 0.0.0.0
+[debug] [2022-12-06T18:59:52.081Z] CLI Version:   11.16.1
+[debug] [2022-12-06T18:59:52.081Z] Platform:      darwin
+[debug] [2022-12-06T18:59:52.081Z] Node Version:  v16.13.2
+[debug] [2022-12-06T18:59:52.082Z] Time:          Wed Dec 07 2022 00:29:52 GMT+0530 (India Standard Time)
+[debug] [2022-12-06T18:59:52.082Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2022-12-06T17:12:37.242Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-12-06T17:12:37.242Z] > authorizing via signed-in user (2820142.cse@pietgroup.co.in)
-[debug] [2022-12-06T17:12:37.242Z] [iam] checking project bookflix-4df5e for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2022-12-06T17:12:37.244Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/bookflix-4df5e:testIamPermissions [none]
-[debug] [2022-12-06T17:12:37.244Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/bookflix-4df5e:testIamPermissions x-goog-quota-user=projects/bookflix-4df5e
-[debug] [2022-12-06T17:12:37.244Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/bookflix-4df5e:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2022-12-06T17:12:39.008Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/bookflix-4df5e:testIamPermissions 200
-[debug] [2022-12-06T17:12:39.009Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/bookflix-4df5e:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2022-12-06T17:12:39.010Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bookflix-4df5e [none]
-[debug] [2022-12-06T17:13:09.014Z] Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/bookflix-4df5e
-[debug] [2022-12-06T17:13:14.027Z] Error: Timed out.
-    at Timeout._onTimeout (/usr/local/lib/node_modules/firebase-tools/lib/utils.js:253:49)
-    at listOnTimeout (node:internal/timers:557:17)
-    at processTimers (node:internal/timers:500:7)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2022-12-06T17:15:59.900Z] ----------------------------------------------------------------------
-[debug] [2022-12-06T17:15:59.901Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
-[debug] [2022-12-06T17:15:59.901Z] CLI Version:   11.16.1
-[debug] [2022-12-06T17:15:59.901Z] Platform:      darwin
-[debug] [2022-12-06T17:15:59.902Z] Node Version:  v16.13.2
-[debug] [2022-12-06T17:15:59.905Z] Time:          Tue Dec 06 2022 22:45:59 GMT+0530 (India Standard Time)
-[debug] [2022-12-06T17:15:59.905Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2022-12-06T17:15:59.936Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-12-06T17:15:59.936Z] > authorizing via signed-in user (2820142.cse@pietgroup.co.in)
+[debug] [2022-12-06T18:59:52.143Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-06T18:59:52.144Z] > authorizing via signed-in user (2820142.cse@pietgroup.co.in)
+[debug] [2022-12-06T18:59:52.144Z] [iam] checking project bookflix-4df5e for permissions ["firebase.projects.get"]
+[debug] [2022-12-06T18:59:52.145Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/bookflix-4df5e:testIamPermissions [none]
+[debug] [2022-12-06T18:59:52.145Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/bookflix-4df5e:testIamPermissions x-goog-quota-user=projects/bookflix-4df5e
+[debug] [2022-12-06T18:59:52.145Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/bookflix-4df5e:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-12-06T18:59:53.931Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/bookflix-4df5e:testIamPermissions 200
+[debug] [2022-12-06T18:59:53.931Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/bookflix-4df5e:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-12-06T18:59:53.932Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bookflix-4df5e [none]
+[debug] [2022-12-06T18:59:54.909Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bookflix-4df5e 200
+[debug] [2022-12-06T18:59:54.909Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bookflix-4df5e {"projectId":"bookflix-4df5e","projectNumber":"477313208350","displayName":"bookflix","name":"projects/bookflix-4df5e","resources":{"hostingSite":"bookflix-4df5e","storageBucket":"bookflix-4df5e.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_c89f7236-1bd0-4b2d-89a3-44b997134f0a"}
 [info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  /Users/vinayak/Documents/webdev/netflix-master/bookstore
-
-Before we get started, keep in mind:
-
-  * You are initializing within an existing Firebase project directory
-
+[info] === Serving from '/Users/vinayak/Documents/webdev/netflix-master/bookstore'...
 [info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[debug] [2022-12-06T17:16:07.448Z] Using project from CLI flag: bookflix-4df5e
-[debug] [2022-12-06T17:16:07.452Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bookflix-4df5e [none]
-[debug] [2022-12-06T17:16:08.456Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bookflix-4df5e 200
-[debug] [2022-12-06T17:16:08.456Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bookflix-4df5e {"projectId":"bookflix-4df5e","projectNumber":"477313208350","displayName":"bookflix","name":"projects/bookflix-4df5e","resources":{"hostingSite":"bookflix-4df5e","storageBucket":"bookflix-4df5e.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_b15d4a8f-d790-4ed3-b760-231b616de1aa"}
-[info] i  Using project bookflix-4df5e (bookflix) 
-[info] 
-=== Hosting Setup
-[info] 
-[info] Your public directory is the folder (relative to your project directory) that
-[info] will contain Hosting assets to be uploaded with firebase deploy. If you
-[info] have a build process for your assets, use your build's output directory.
-[info] 
-[info] ✔  Wrote public/404.html 
-[debug] [2022-12-06T17:18:02.819Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
-[debug] [2022-12-06T17:18:03.157Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
-[debug] [2022-12-06T17:18:03.158Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.14.0","browserURL":"https://www.gstatic.com/firebasejs/9.14.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.14.0/firebase.tgz"},"live":{"version":"9.14","browserURL":"https://www.gstatic.com/firebasejs/live/9.14/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.14/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.14.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.14.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.14.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.14.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.14.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.14.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.14.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.14.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.14.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.14.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.14.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.14.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore.memory.js"}}
-[info] i  Skipping write of public/index.html 
-[info] 
-[info] i  Detected a .git folder at /Users/vinayak/Documents/webdev/netflix-master/bookstore 
-[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
-[info] 
-[info] Visit this URL on this device to log in:
-[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=91161751&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
-[info] 
-[info] Waiting for authentication...
-[debug] [2022-12-06T17:18:14.106Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
-[debug] [2022-12-06T17:18:14.106Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
-[debug] [2022-12-06T17:18:14.742Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
-[debug] [2022-12-06T17:18:14.742Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
-[debug] [2022-12-06T17:18:14.764Z] >>> [apiv2][query] GET https://api.github.com/user [none]
-[debug] [2022-12-06T17:18:15.456Z] <<< [apiv2][status] GET https://api.github.com/user 200
-[debug] [2022-12-06T17:18:15.457Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"vksssd","id":36007729,"node_id":"MDQ6VXNlcjM2MDA3NzI5","avatar_url":"https://avatars.githubusercontent.com/u/36007729?v=4","gravatar_id":"","url":"https://api.github.com/users/vksssd","html_url":"https://github.com/vksssd","followers_url":"https://api.github.com/users/vksssd/followers","following_url":"https://api.github.com/users/vksssd/following{/other_user}","gists_url":"https://api.github.com/users/vksssd/gists{/gist_id}","starred_url":"https://api.github.com/users/vksssd/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vksssd/subscriptions","organizations_url":"https://api.github.com/users/vksssd/orgs","repos_url":"https://api.github.com/users/vksssd/repos","events_url":"https://api.github.com/users/vksssd/events{/privacy}","received_events_url":"https://api.github.com/users/vksssd/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":90,"public_gists":1,"followers":2,"following":21,"created_at":"2018-01-31T17:10:00Z","updated_at":"2022-12-04T19:40:27Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":37528,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
-[info] 
-[info] ✔  Success! Logged into GitHub as vksssd 
-[info] 
+[debug] [2022-12-06T18:59:54.915Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/bookflix-4df5e/sites 
+[debug] [2022-12-06T18:59:56.546Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/bookflix-4df5e/sites 200
+[debug] [2022-12-06T18:59:56.546Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/bookflix-4df5e/sites {"sites":[{"name":"projects/bookflix-4df5e/sites/bookflix-4df5e","defaultUrl":"https://bookflix-4df5e.web.app","appId":"1:477313208350:web:d95e9c918136e9b2b51e0f","type":"DEFAULT_SITE"}]}
+[debug] [2022-12-06T18:59:56.547Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bookflix-4df5e/webApps/1:477313208350:web:d95e9c918136e9b2b51e0f/config [none]
+[debug] [2022-12-06T18:59:58.796Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bookflix-4df5e/webApps/1:477313208350:web:d95e9c918136e9b2b51e0f/config 200
+[debug] [2022-12-06T18:59:58.796Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bookflix-4df5e/webApps/1:477313208350:web:d95e9c918136e9b2b51e0f/config {"projectId":"bookflix-4df5e","appId":"1:477313208350:web:d95e9c918136e9b2b51e0f","storageBucket":"bookflix-4df5e.appspot.com","locationId":"us-central","apiKey":"AIzaSyBd-M_k_vYqDQmonr3rz6KHpUwp0Q2MEW0","authDomain":"bookflix-4df5e.firebaseapp.com","messagingSenderId":"477313208350"}
+[debug] [2022-12-06T18:59:58.816Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bookflix-4df5e [none]
+[debug] [2022-12-06T18:59:59.722Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bookflix-4df5e 200
+[debug] [2022-12-06T18:59:59.722Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bookflix-4df5e {"projectId":"bookflix-4df5e","projectNumber":"477313208350","displayName":"bookflix","name":"projects/bookflix-4df5e","resources":{"hostingSite":"bookflix-4df5e","storageBucket":"bookflix-4df5e.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_c89f7236-1bd0-4b2d-89a3-44b997134f0a"}
+[info] i  hosting[bookflix-4df5e]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] ✔  hosting[bookflix-4df5e]: Local server: http://0.0.0.0:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://0.0.0.0:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: 127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15\""}}
+[debug] [2022-12-06T19:00:04.220Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-app-compat.js [none]
+[debug] [2022-12-06T19:00:04.223Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-auth-compat.js [none]
+[debug] [2022-12-06T19:00:04.224Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-database-compat.js [none]
+[debug] [2022-12-06T19:00:04.226Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore-compat.js [none]
+[debug] [2022-12-06T19:00:04.227Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-functions-compat.js [none]
+[debug] [2022-12-06T19:00:04.228Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-messaging-compat.js [none]
+[debug] [2022-12-06T19:00:04.507Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-app-compat.js 200
+[debug] [2022-12-06T19:00:04.508Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-app-compat.js [stream]
+[info] i  hosting: 127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] "GET /__/firebase/9.14.0/firebase-app-compat.js HTTP/1.1" 200 9248 "http://0.0.0.0:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] \"GET /__/firebase/9.14.0/firebase-app-compat.js HTTP/1.1\" 200 9248 \"http://0.0.0.0:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15\""}}
+[debug] [2022-12-06T19:00:04.516Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-storage-compat.js [none]
+[debug] [2022-12-06T19:00:04.519Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-database-compat.js 200
+[debug] [2022-12-06T19:00:04.519Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-database-compat.js [stream]
+[debug] [2022-12-06T19:00:04.530Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-messaging-compat.js 200
+[debug] [2022-12-06T19:00:04.531Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-messaging-compat.js [stream]
+[debug] [2022-12-06T19:00:04.543Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-functions-compat.js 200
+[debug] [2022-12-06T19:00:04.543Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-functions-compat.js [stream]
+[info] i  hosting: 127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] "GET /__/firebase/9.14.0/firebase-messaging-compat.js HTTP/1.1" 200 9930 "http://0.0.0.0:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] \"GET /__/firebase/9.14.0/firebase-messaging-compat.js HTTP/1.1\" 200 9930 \"http://0.0.0.0:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15\""}}
+[debug] [2022-12-06T19:00:04.549Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-auth-compat.js 200
+[debug] [2022-12-06T19:00:04.550Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-auth-compat.js [stream]
+[info] i  hosting: 127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] "GET /__/firebase/9.14.0/firebase-functions-compat.js HTTP/1.1" 200 8116 "http://0.0.0.0:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] \"GET /__/firebase/9.14.0/firebase-functions-compat.js HTTP/1.1\" 200 8116 \"http://0.0.0.0:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15\""}}
+[debug] [2022-12-06T19:00:04.553Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics-compat.js [none]
+[debug] [2022-12-06T19:00:04.557Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-remote-config-compat.js [none]
+[debug] [2022-12-06T19:00:04.560Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore-compat.js 200
+[debug] [2022-12-06T19:00:04.561Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore-compat.js [stream]
+[info] i  hosting: 127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] "GET /__/firebase/9.14.0/firebase-database-compat.js HTTP/1.1" 200 48039 "http://0.0.0.0:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] \"GET /__/firebase/9.14.0/firebase-database-compat.js HTTP/1.1\" 200 48039 \"http://0.0.0.0:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15\""}}
+[debug] [2022-12-06T19:00:04.641Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-performance-compat.js [none]
+[info] i  hosting: 127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] "GET /__/firebase/9.14.0/firebase-auth-compat.js HTTP/1.1" 200 36302 "http://0.0.0.0:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] \"GET /__/firebase/9.14.0/firebase-auth-compat.js HTTP/1.1\" 200 36302 \"http://0.0.0.0:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://0.0.0.0:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://0.0.0.0:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] "GET /static/js/main.3db96753.js HTTP/1.1" 200 - "http://0.0.0.0:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] \"GET /static/js/main.3db96753.js HTTP/1.1\" 200 - \"http://0.0.0.0:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] "GET /static/css/main.58462fbc.css HTTP/1.1" 200 - "http://0.0.0.0:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] \"GET /static/css/main.58462fbc.css HTTP/1.1\" 200 - \"http://0.0.0.0:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] "GET /__/firebase/9.14.0/firebase-firestore-compat.js HTTP/1.1" 200 313613 "http://0.0.0.0:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] \"GET /__/firebase/9.14.0/firebase-firestore-compat.js HTTP/1.1\" 200 313613 \"http://0.0.0.0:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15\""}}
+[debug] [2022-12-06T19:00:04.844Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics-compat.js 200
+[debug] [2022-12-06T19:00:04.844Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics-compat.js [stream]
+[debug] [2022-12-06T19:00:04.902Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-remote-config-compat.js 200
+[debug] [2022-12-06T19:00:04.902Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-remote-config-compat.js [stream]
+[debug] [2022-12-06T19:00:04.908Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-storage-compat.js 200
+[debug] [2022-12-06T19:00:04.908Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-storage-compat.js [stream]
+[info] i  hosting: 127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] "GET /__/firebase/9.14.0/firebase-analytics-compat.js HTTP/1.1" 200 25831 "http://0.0.0.0:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] \"GET /__/firebase/9.14.0/firebase-analytics-compat.js HTTP/1.1\" 200 25831 \"http://0.0.0.0:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] "GET /__/firebase/9.14.0/firebase-remote-config-compat.js HTTP/1.1" 200 27303 "http://0.0.0.0:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Dec/2022:19:00:04 +0000] \"GET /__/firebase/9.14.0/firebase-remote-config-compat.js HTTP/1.1\" 200 27303 \"http://0.0.0.0:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15\""}}
+[debug] [2022-12-06T19:00:04.994Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-performance-compat.js 200
+[debug] [2022-12-06T19:00:04.994Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.14.0/firebase-performance-compat.js [stream]
+[info] i  hosting: 127.0.0.1 - - [06/Dec/2022:19:00:05 +0000] "GET /__/firebase/9.14.0/firebase-storage-compat.js HTTP/1.1" 200 39373 "http://0.0.0.0:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Dec/2022:19:00:05 +0000] \"GET /__/firebase/9.14.0/firebase-storage-compat.js HTTP/1.1\" 200 39373 \"http://0.0.0.0:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Dec/2022:19:00:05 +0000] "GET /__/firebase/9.14.0/firebase-performance-compat.js HTTP/1.1" 200 30708 "http://0.0.0.0:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Dec/2022:19:00:05 +0000] \"GET /__/firebase/9.14.0/firebase-performance-compat.js HTTP/1.1\" 200 30708 \"http://0.0.0.0:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Dec/2022:19:00:05 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://0.0.0.0:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Dec/2022:19:00:05 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://0.0.0.0:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Dec/2022:19:00:19 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Dec/2022:19:00:19 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Dec/2022:19:00:19 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://0.0.0.0:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Dec/2022:19:00:19 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://0.0.0.0:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15\""}}
