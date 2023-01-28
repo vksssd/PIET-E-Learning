@@ -8,12 +8,6 @@ import { seedDatabase } from '../seed';
 // import { seedDatabase } from '../seed';
 
 const config = {
-    apiKey: "AIzaSyBd-M_k_vYqDQmonr3rz6KHpUwp0Q2MEW0",
-    authDomain: "bookflix-4df5e.firebaseapp.com",
-    projectId: "bookflix-4df5e",
-    storageBucket: "bookflix-4df5e.appspot.com",
-    messagingSenderId: "477313208350",
-    appId: "1:477313208350:web:d95e9c918136e9b2b51e0f"
 };
 
 const firebase = Firebase.initializeApp(config); 
